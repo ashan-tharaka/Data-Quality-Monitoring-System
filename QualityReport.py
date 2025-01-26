@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 df=pd.read_csv('sales_data.csv')
 
@@ -67,7 +68,7 @@ print("\nData Quality Report as DataFrame:")
 print(report_df)
 
 
-import matplotlib.pyplot as plt
+
 
 # Visualize missing values
 missing_values.plot(kind="bar", title="Missing Values per Column")
